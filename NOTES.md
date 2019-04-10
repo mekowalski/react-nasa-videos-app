@@ -29,4 +29,4 @@ SearchBar     VideoDetail       VideoList
   - turn current input from uncontrolled to controlled(this will be hooked up to state of SearchBar class)
   - [x] first initialize State
   - [x] value on input should be `this.state.term`
-  - [] trigger submit event(wire event handler)
+  - [] event handlers for Input change AND Form Submit

@@ -39,3 +39,6 @@ SearchBar     VideoDetail       VideoList
   - not sure if i will set up the api file the same as NASA Images app
   - GET request with root url and `q` & `videos` params
   - [] Install and set up Axios
+
+- [] Try out NASA videos API
+  - begin wiring it up to SearchBar component

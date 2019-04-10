@@ -12,3 +12,5 @@ export default axiso.create({
     media_type: 'video'
   }
 })
+
+//hoping headers will work correctly

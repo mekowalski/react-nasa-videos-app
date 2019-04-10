@@ -23,3 +23,5 @@ SearchBar     VideoDetail       VideoList
 - App: Holds all the State for application, for retrieving list of videos & storing current search term
 - App will configure SearchBar, VideoDetail & VideoList by passing Props from App to Child
 - VideoList will pass Props down to VideoItem to display separate videos
+
+- [] SearchBar will be nearly identical to the NASA Images Searchbar

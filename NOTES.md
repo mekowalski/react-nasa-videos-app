@@ -25,3 +25,6 @@ SearchBar     VideoDetail       VideoList
 - VideoList will pass Props down to VideoItem to display separate videos
 
 - [] SearchBar will be nearly identical to the NASA Images Searchbar
+  - text input for typing: form, label, input
+  - trigger submit event
+  -

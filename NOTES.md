@@ -24,9 +24,15 @@ SearchBar     VideoDetail       VideoList
 - App will configure SearchBar, VideoDetail & VideoList by passing Props from App to Child
 - VideoList will pass Props down to VideoItem to display separate videos
 
-- [] SearchBar will be nearly identical to the NASA Images Searchbar
+- [x] SearchBar will be nearly identical to the NASA Images Searchbar
   - text input for typing: form, label, input
   - turn current input from uncontrolled to controlled(this will be hooked up to state of SearchBar class)
   - [x] first initialize State
   - [x] value on input should be `this.state.term`
-  - [] event handlers for Input change AND Form Submit
+  - [x] event handlers for Input change AND Form Submit
+
+## NASA Video API
+- Same API but with `videos` param `https://images-api.nasa.gov/search?q=pluto&media_type=video`
+- [] Set up NASA videos API
+  - take search term, make a request and get back a list of videos on screen
+  - [] folder for `api`

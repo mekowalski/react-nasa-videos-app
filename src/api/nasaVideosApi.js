@@ -4,4 +4,11 @@ const KEY = 'fLIfZZeWjAhPawnoL8lIyubp9JeOYPSdvJUU4jYk'
 
 export default axiso.create({
   baseURL: 'https://images-api.nasa.gov',
+  headers: {
+    Authorization: KEY
+  },
+  params: {
+    q: term,
+    media_type: 'video'
+  }
 })

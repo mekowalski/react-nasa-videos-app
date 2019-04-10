@@ -10,3 +10,16 @@
 - VideoList: render entire list of videos
 - VideoItem: renders a single video that resulted from the search
 - VideoDetail: will actually show video player and play video with tile and description
+
+- Component Hierarchy
+
+                  APP
+  _________________|_________________
+  |                |                |
+SearchBar     VideoDetail       VideoList
+                                    |
+                                VideoItem
+
+- App: Holds all the State for application, for retrieving list of videos & storing current search term
+- App will configure SearchBar, VideoDetail & VideoList by passing Props from App to Child
+- VideoList will pass Props down to VideoItem to display separate videos

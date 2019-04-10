@@ -35,4 +35,7 @@ SearchBar     VideoDetail       VideoList
 - Same API but with `videos` param `https://images-api.nasa.gov/search?q=pluto&media_type=video`
 - [] Set up NASA videos API
   - take search term, make a request and get back a list of videos on screen
-  - [] folder for `api`
+  - [x] folder for `api`
+  - not sure if i will set up the api file the same as NASA Images app
+  - GET request with root url and `q` & `videos` params
+  - [] Install and set up Axios

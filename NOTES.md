@@ -27,6 +27,6 @@ SearchBar     VideoDetail       VideoList
 - [] SearchBar will be nearly identical to the NASA Images Searchbar
   - text input for typing: form, label, input
   - turn current input from uncontrolled to controlled(this will be hooked up to state of SearchBar class)
-  - [] first initialize State
-  - [] value on input should be `this.state.term`
-  - trigger submit event
+  - [x] first initialize State
+  - [x] value on input should be `this.state.term`
+  - [] trigger submit event(wire event handler)

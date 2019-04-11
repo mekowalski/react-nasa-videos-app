@@ -51,3 +51,4 @@ SearchBar     VideoDetail       VideoList
 - The majority of the data returned has an `href` for 1 thumbnail image and 1 `.srt` file, meaning that the returned data only includes text/subtitles which DOES NOT contain any video or audio
 
 - Maybe the NASA images API doesn't have actual videos to display!!!
+- May need to stop working on this because I have no actual video value to use for the purpose of this app :(

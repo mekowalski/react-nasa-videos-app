@@ -43,5 +43,7 @@ SearchBar     VideoDetail       VideoList
 - [] Try out NASA videos API
   - begin wiring it up to SearchBar component
   - [x] Add callback method for submission ons SearchBar form
-  - [] Import NASA videos API to actually make request
+  - [x] Import NASA videos API to actually make request
   - [] async await with request
+
+- Currently the collection that is returned has 3 `href`s for each item.  None of those `href`s open a media in the form of a video that is able to be played.  I tried opening all three and none are video player types.  Not sure how to work around this or even get it to work.  Contacted support and waiting response.

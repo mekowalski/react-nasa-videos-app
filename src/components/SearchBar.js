@@ -13,6 +13,7 @@ class SearchBar extends React.Component {
     console.log('this did not submit')
 
     //TODO: Make sure to call callback from parent component
+    this.props.onTermSubmit(this.state.term)
   }
 
   render() {

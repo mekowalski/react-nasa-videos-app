@@ -33,12 +33,13 @@ SearchBar     VideoDetail       VideoList
 
 ## NASA Video API
 - Same API but with `videos` param `https://images-api.nasa.gov/search?q=pluto&media_type=video`
-- [] Set up NASA videos API
+- [x] Set up NASA videos API
   - take search term, make a request and get back a list of videos on screen
   - [x] folder for `api`
   - not sure if i will set up the api file the same as NASA Images app
   - GET request with root url and `q` & `videos` params
-  - [] Install and set up Axios
+  - [x] Install and set up Axios
 
 - [] Try out NASA videos API
   - begin wiring it up to SearchBar component
+  - [] Add callback method for submission ons SearchBar form

@@ -46,4 +46,8 @@ SearchBar     VideoDetail       VideoList
   - [x] Import NASA videos API to actually make request
   - [] async await with request
 
-- Currently the collection that is returned has 3 `href`s for each item.  None of those `href`s open a media in the form of a video that is able to be played.  I tried opening all three and none are video player types.  Not sure how to work around this or even get it to work.  Contacted support and waiting response.
+- Currently the collection that is returned has 3 `href`s for each item.  None of those `href`s open a media in the form of a video that is able to be played.  I tried opening all three and none are video player types.  Not sure how to work around this or even get it to work.  Contacted support and waiting response
+
+- The majority of the data returned has an `href` for 1 thumbnail image and 1 `.srt` file, meaning that the returned data only includes text/subtitles which DOES NOT contain any video or audio
+
+- Maybe the NASA images API doesn't have actual videos to display!!!

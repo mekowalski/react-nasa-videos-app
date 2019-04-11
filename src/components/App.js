@@ -1,9 +1,15 @@
 import React from 'react';
 import SearchBar from './SearchBar'
+import nasaVideosApi from '../api/nasaVideosApi'
 
 class App extends React.Component {
   onTermSubmit = term => {
-    console.log(term)
+    nasaVideosApi.get('/search', {
+      params: {
+        q: term,
+        media_type: 'video'
+      }
+    })
   }
 
   render() {

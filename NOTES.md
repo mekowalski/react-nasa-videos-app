@@ -42,4 +42,6 @@ SearchBar     VideoDetail       VideoList
 
 - [] Try out NASA videos API
   - begin wiring it up to SearchBar component
-  - [] Add callback method for submission ons SearchBar form
+  - [x] Add callback method for submission ons SearchBar form
+  - [] Import NASA videos API to actually make request
+  - [] async await with request

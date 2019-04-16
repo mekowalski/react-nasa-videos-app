@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchBar from './SearchBar';
+import VideoList from './VideoList';
 import nasaVideosApi from '../api/nasaVideosApi';
 
 class App extends React.Component {
@@ -19,7 +20,8 @@ class App extends React.Component {
     return (
       <div className='ui container' style={{ marginTop: '15px' }}>
         <SearchBar onFormSubmit={this.onTermSubmit} />
-        I have {this.state.titles.length} titles
+        <VideoList titles={this.state.titles} />
+        //reference the titles fetched from onTermSubmit
       </div>
     )
   }

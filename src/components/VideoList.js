@@ -1,9 +1,10 @@
 import React from 'react';
 
 const VideoList = props => {
+  //props.titles, array rendered as HTML on screen
   return (
     <div>
-      List of actal titles
+      {props.titles.length}
     </div>
   )
 }

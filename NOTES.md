@@ -67,9 +67,14 @@ SearchBar     VideoDetail       VideoList
 
 - [x] Restyle with Semantic UI
 - [x] Resize images with CSS styling, CSS file
-- [] Click title and show big detail on that one with descriptors underneath image
+- [x] Click title and show big detail on that one with descriptors underneath image
   - from `Network`: center, date_created, description, keywords, nasaId
   - communicate from Child to Parent
 
-- [] Update state of App component when title is clicked
+- [x] Update state of App component when title is clicked
   - callback `onTitleSelect` prop
+  - click event and callback worked correctly in console
+  1. App defines `onTitleSelect` callback method
+  2. `onTitleSelect` is passed as a prop to `VideoList`
+  3. `VideoList` in turn passes that down to `VideoItem`
+  4. When a user clicks on the item, the callback it invoked (essentially sends communication back to App(parent) component)

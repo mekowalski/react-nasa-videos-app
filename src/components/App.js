@@ -12,13 +12,13 @@ class App extends React.Component {
         media_type: 'video'
       }
     })
-    this.setState({ titles: response.data.items })
+    this.setState({ titles: response.data.collection.items })
   }
 
   render() {
     return (
       <div className='ui container' style={{ marginTop: '15px' }}>
-        <SearchBar onTermSubmit={this.onTermSubmit} />
+        <SearchBar onFormSubmit={this.onTermSubmit} />
         I have {this.state.titles.length} titles
       </div>
     )

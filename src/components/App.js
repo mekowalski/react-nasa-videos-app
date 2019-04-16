@@ -1,9 +1,9 @@
 import React from 'react';
-import SearchBar from './SearchBar'
-import nasaVideosApi from '../api/nasaVideosApi'
+import SearchBar from './SearchBar';
+import nasaVideosApi from '../api/nasaVideosApi';
 
 class App extends React.Component {
-  state = { videos: [] }
+  state = { titles: [] }
 
   onTermSubmit = async term => {
     const response = await nasaVideosApi.get('/search', {
@@ -12,13 +12,14 @@ class App extends React.Component {
         media_type: 'video'
       }
     })
-    console.log(response)
+    this.setState({ titles: response.data.items })
   }
 
   render() {
     return (
       <div className='ui container' style={{ marginTop: '15px' }}>
-        <SearchBar onTermSubmit={this.onTermSubmit}/>
+        <SearchBar onTermSubmit={this.onTermSubmit} />
+        I have {this.state.titles.length} titles
       </div>
     )
   }

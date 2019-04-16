@@ -9,3 +9,6 @@ const VideoItem = props => {
 }
 
 export default VideoItem
+
+//what properties to refer to inside the object
+//ref path: title.data.title to print out the title of each item

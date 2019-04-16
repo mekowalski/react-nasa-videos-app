@@ -23,3 +23,10 @@ Kowalski, are you there?
 - What this App doesn't do:
   - No user auth/id/login/etc
   - The data rendered from request doesn't actually have videos to use, I only used provided thumbnail
+
+### App Review
+- SearchBar: Send search term to an App/Parent component which then will actually make the API request
+- VideoList: Render entire list of videos(VideoItem)
+- VideoItem: One specific video that will be contained in the VideoList
+- VideoDetail: Responsible for showing a thumbnail image with a title, center(of item), date creation and description
+- App: Has 2 State props(`videos` and `selectedVideo`)

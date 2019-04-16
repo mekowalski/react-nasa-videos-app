@@ -17,7 +17,7 @@ class App extends React.Component {
   }
 
   onTitleSelect = title => {
-    console.log('From the App!', title)
+    this.setState({ selectedTitle: title })
   }
 
   render() {

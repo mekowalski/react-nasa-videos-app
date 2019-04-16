@@ -66,4 +66,10 @@ SearchBar     VideoDetail       VideoList
   - customize contents of item component
 
 - [x] Restyle with Semantic UI
-- [] Resize images with CSS styling, CSS file
+- [x] Resize images with CSS styling, CSS file
+- [] Click title and show big detail on that one with descriptors underneath image
+  - from `Network`: center, date_created, description, keywords, nasaId
+  - communicate from Child to Parent
+
+- [] Update state of App component when title is clicked
+  - callback `onTitleSelect` prop

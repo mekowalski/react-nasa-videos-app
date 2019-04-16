@@ -4,7 +4,7 @@ import VideoList from './VideoList';
 import nasaVideosApi from '../api/nasaVideosApi';
 
 class App extends React.Component {
-  state = { titles: [] }
+  state = { titles: [], selectedTitle: null }
 
   onTermSubmit = async term => {
     const response = await nasaVideosApi.get('/search', {
@@ -16,11 +16,15 @@ class App extends React.Component {
     this.setState({ titles: response.data.collection.items })
   }
 
+  onTitleSelect = title => {
+    console.log('From the App!', title)
+  }
+
   render() {
     return (
       <div className='ui container' style={{ marginTop: '15px' }}>
         <SearchBar onFormSubmit={this.onTermSubmit} />
-        <VideoList titles={this.state.titles} />
+        <VideoList onTitleSelect={this.onTitleSelect} titles={this.state.titles} />
       </div>
     )
   }

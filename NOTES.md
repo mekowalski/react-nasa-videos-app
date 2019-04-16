@@ -52,3 +52,7 @@ SearchBar     VideoDetail       VideoList
 
 - Maybe the NASA images API doesn't have actual videos to display!!!
 - May need to stop working on this because I have no actual video value to use for the purpose of this app :(
+
+
+### New Idea
+- continue working through this but not use video since it isn't offered. Use description as a main focus and use other attributes of the collection to render with the list. (title, description, creationDate, keywords)

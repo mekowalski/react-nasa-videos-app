@@ -95,6 +95,8 @@ SearchBar     VideoDetail       VideoList
 - [x] `alt`/`key` issue with `nasa_id`
 
 - [] Style with:
-  - [] `VideoDetail` on left side of screen with large image on top and descriptors below
-  - [] `VideoList` on right of screen with list of all the items rendered
+  - [x] `VideoDetail` on left side of screen with large image on top and descriptors below
+  - [x] `VideoList` on right of screen with list of all the items rendered
   - [] With new search, remove original selected item
+
+- [] Fix temp `loading...` from first app loading

@@ -14,7 +14,10 @@ class App extends React.Component {
         media_type: 'video'
       }
     })
-    this.setState({ titles: response.data.collection.items })
+    this.setState({
+      titles: response.data.collection.items,
+      selectedTitle: response.data.collection.items[0]
+    })
   }
 
   onTitleSelect = title => {

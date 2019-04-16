@@ -65,4 +65,5 @@ SearchBar     VideoDetail       VideoList
 - [x] Pass each item object as a prop down into each `VideoItem` created
   - customize contents of item component
 
-- [] Restyle and resize images rendered
+- [x] Restyle with Semantic UI
+- [] Resize images with CSS styling, CSS file

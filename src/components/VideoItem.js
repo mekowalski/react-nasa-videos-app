@@ -1,9 +1,9 @@
 import React from 'react';
 
-const VideoItem = props => {
+const VideoItem = ({ title }) => {
   return (
     <div>
-      A single item
+      {title.data[0].title}
     </div>
   )
 }

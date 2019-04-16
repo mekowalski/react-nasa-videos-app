@@ -94,9 +94,10 @@ SearchBar     VideoDetail       VideoList
 
 - [x] `alt`/`key` issue with `nasa_id`
 
-- [] Style with:
+- [x] Style with:
   - [x] `VideoDetail` on left side of screen with large image on top and descriptors below
   - [x] `VideoList` on right of screen with list of all the items rendered
-  - [] With new search, remove original selected item
+  - [x] With new search, remove original selected item
 
-- [] Fix temp `loading...` from first app loading
+- [x] Fix temp `loading...` from first app loading
+  - `componentDidMount()` to default search, make default search when app first renders

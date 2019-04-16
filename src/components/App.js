@@ -7,6 +7,11 @@ import nasaVideosApi from '../api/nasaVideosApi';
 class App extends React.Component {
   state = { titles: [], selectedTitle: null }
 
+  componentDidMount() {
+    this.onTermSubmit('NASA')
+  }
+  //this will always be the default when app first loads
+
   onTermSubmit = async term => {
     const response = await nasaVideosApi.get('/search', {
       params: {

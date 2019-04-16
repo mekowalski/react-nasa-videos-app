@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
+import VideoDetail from './VideoDetail';
 import nasaVideosApi from '../api/nasaVideosApi';
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
     return (
       <div className='ui container' style={{ marginTop: '15px' }}>
         <SearchBar onFormSubmit={this.onTermSubmit} />
+        <VideoDetail title={this.state.selectedTitle} />
         <VideoList onTitleSelect={this.onTitleSelect} titles={this.state.titles} />
       </div>
     )

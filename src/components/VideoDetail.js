@@ -5,8 +5,6 @@ const VideoDetail = ({ title }) => {
     return <div>Loading...</div>
   }
 
-  // const titleSrc =
-
   return (
     <div>
       <div className='ui segment' >

@@ -85,6 +85,9 @@ SearchBar     VideoDetail       VideoList
 - [x] Create `VideoDetail` component
   - which will be the detail of the item of the title with descriptors
 
-- [] Styling of `VideoDetail` component
+- [x] Styling of `VideoDetail` component
   - Show panel underneath image with description
   - Eventually include descriptors
+
+- [] Show the image
+  - Finally include the descriptors

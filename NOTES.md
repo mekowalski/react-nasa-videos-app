@@ -68,7 +68,7 @@ SearchBar     VideoDetail       VideoList
 - [x] Restyle with Semantic UI
 - [x] Resize images with CSS styling, CSS file
 - [x] Click title and show big detail on that one with descriptors underneath image
-  - from `Network`: center, date_created, description, keywords, nasaId
+  - from `Network`: center, dateCreated, description, keywords, nasaId
   - communicate from Child to Parent
 
 - [x] Update state of App component when title is clicked
@@ -79,8 +79,12 @@ SearchBar     VideoDetail       VideoList
   3. `VideoList` in turn passes that down to `VideoItem`
   4. When a user clicks on the item, the callback it invoked (essentially sends communication back to App(parent) component)
 
-- [] `onTitleSelect` needs to take `title` and set it on the State, specifically on the `selectedTitle` property
+- [x] `onTitleSelect` needs to take `title` and set it on the State, specifically on the `selectedTitle` property
   - Re-render App (update state on App class)
 
 - [x] Create `VideoDetail` component
   - which will be the detail of the item of the title with descriptors
+
+- [] Styling of `VideoDetail` component
+  - Show panel underneath image with description
+  - Eventually include descriptors

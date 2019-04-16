@@ -62,5 +62,7 @@ SearchBar     VideoDetail       VideoList
 - i'm still going to make the components, terms etc under `video` but technically i'll be working with a title and other descriptors
 - eg: `VideoList` will be the a list of titles, `VideoItem` will be one specific title
 
-- [] Pass each item object as a prop down into each `VideoItem` created
+- [x] Pass each item object as a prop down into each `VideoItem` created
   - customize contents of item component
+
+- [] Restyle and resize images rendered

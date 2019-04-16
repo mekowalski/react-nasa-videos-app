@@ -58,3 +58,6 @@ SearchBar     VideoDetail       VideoList
 - continue working through this but not use video since it isn't offered. Use description as a main focus and use other attributes of the collection to render with the list. (title, description, creationDate, keywords)
 
 - running into issues with an event handler, not sure if i want to continue this app
+
+- i'm still going to make the components, terms etc under `video` but technically i'll be working with a title and other descriptors
+- eg: `VideoList` will be the a list of titles, `VideoItem` will be one specific title

@@ -56,3 +56,5 @@ SearchBar     VideoDetail       VideoList
 
 ### New Idea
 - continue working through this but not use video since it isn't offered. Use description as a main focus and use other attributes of the collection to render with the list. (title, description, creationDate, keywords)
+
+- running into issues with an event handler, not sure if i want to continue this app

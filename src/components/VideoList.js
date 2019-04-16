@@ -1,12 +1,13 @@
 import React from 'react';
 
-const VideoList = props => {
-  //props.titles, array rendered as HTML on screen
+const VideoList = {{ titles }} => {
   return (
     <div>
-      {props.titles.length}
+      {titles.length}
     </div>
   )
 }
 
 export default VideoList
+
+//destructure props

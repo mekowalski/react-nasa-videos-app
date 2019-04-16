@@ -21,7 +21,6 @@ class App extends React.Component {
       <div className='ui container' style={{ marginTop: '15px' }}>
         <SearchBar onFormSubmit={this.onTermSubmit} />
         <VideoList titles={this.state.titles} />
-        //reference the titles fetched from onTermSubmit
       </div>
     )
   }

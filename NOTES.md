@@ -78,3 +78,9 @@ SearchBar     VideoDetail       VideoList
   2. `onTitleSelect` is passed as a prop to `VideoList`
   3. `VideoList` in turn passes that down to `VideoItem`
   4. When a user clicks on the item, the callback it invoked (essentially sends communication back to App(parent) component)
+
+- [] `onTitleSelect` needs to take `title` and set it on the State, specifically on the `selectedTitle` property
+  - Re-render App (update state on App class)
+
+- [x] Create `VideoDetail` component
+  - which will be the detail of the item of the title with descriptors

@@ -89,5 +89,12 @@ SearchBar     VideoDetail       VideoList
   - Show panel underneath image with description
   - Eventually include descriptors
 
-- [] Show the image
+- [x] Show the image
   - Finally include the descriptors
+
+- [x] `alt`/`key` issue with `nasa_id`
+
+- [] Style with:
+  - `VideoDetail` on left side of screen with large image on top and descriptors below
+  - `VideoList` on right of screen with list of all the items rendered
+  - With new search, remove original selected item 

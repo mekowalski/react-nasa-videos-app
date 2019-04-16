@@ -3,13 +3,16 @@ import SearchBar from './SearchBar'
 import nasaVideosApi from '../api/nasaVideosApi'
 
 class App extends React.Component {
-  onTermSubmit = term => {
-    nasaVideosApi.get('/search', {
+  state = { videos: [] }
+
+  onTermSubmit = async term => {
+    const response = await nasaVideosApi.get('/search', {
       params: {
         q: term,
         media_type: 'video'
       }
     })
+    console.log(response)
   }
 
   render() {
@@ -22,3 +25,9 @@ class App extends React.Component {
 }
 
 export default App
+
+
+//1. async await
+//2. set response as state. using `videos: []` because i don't want to confuse myself with the keys
+//3. when user searches for something and get back a list of titles(technically, not videos)
+//4. take that list of titles and set it on state. (maybe it should be titles not videos)
